@@ -55,7 +55,7 @@ Are you lucky and already have upgraded to HTTP/2 and your server has the possib
 
  The cool thing with the Be Nice AMP Project is that it is compatible with your current CDN! You can just continue to use it and your pages will be super fast.
 
- * **Question:** Joining the AMP Project will make may pages rank higher in Google. Can you promise the same with the *Be Nice AMP Project*? 
+ * **Question:** Joining the AMP Project will make my pages rank higher in Google. Can you promise the same with the *Be Nice AMP Project*? 
  
   No, sorry.
 
