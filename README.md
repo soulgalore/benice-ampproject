@@ -18,7 +18,7 @@ You need to build your HTML following this pattern.
   <link rel="canonical" href="hello-world.html" >
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
   <!-- Never ever load javascript asyncrounus, make sure you follow this pattern:
-  <script src="https:/www./example.org/important.js" async></script>-->
+  <script src="https://www.example.org/important.js" async></script>-->
   <style>body { background-color: yellow; }</style>
 </head>
 <body>Hello World!</body>
