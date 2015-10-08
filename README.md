@@ -59,6 +59,10 @@ Are you lucky and already have upgraded to HTTP/2 and your server has the possib
  
   No, sorry.
 
+ * **Question:** The AMP Project has some new cool tags like *amp-img* instead of using the old classic img tag. Is this something I can use in the Be Nice project?
+ 
+ No, we don't support these tags out of the box. But we have kind of a cool feature where you can load whatever javascript you want, so you free to build it.
+
 ## Be Nice AMP Project vs AMP HTML
 You probably heard of the Google project [AMP Project](https://github.com/ampproject/amphtml) that is kind of the same thing as the Be Nice AMP Project except for a couple of things:
 
