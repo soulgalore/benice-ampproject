@@ -2,7 +2,7 @@
 
 Building static HTML that is fast for the end user doesn't need to be hard. Just follow these simple instructions and I promise you that your site will be really fast.
 
-The Be Nice AMP Project is entirely built on existing web technologies, there's no magic here. You can use HTML, Javascript, CSS and images. However: Never ever load Javascript synchronously. Just don't do it.
+The Be Nice AMP Project is entirely built on existing web technologies and best practices, there's no magic here. You can use HTML, Javascript, CSS and images. However: Never ever load Javascript synchronously. Just don't do it.
 
 And make sure to inline the CSS inside of head if you use HTTP/1.1.
 
@@ -25,6 +25,8 @@ You need to build your HTML following this pattern.
 </html>
 ```
 
+If you have lots and lots of CSS and you feel that inlining it will be kind of bad, have a look at [loadCSS](https://github.com/filamentgroup/loadCSS) project by the Filament Group.
+
 # How does the Be Nice AMP Project work on HTTP/2?
 Are you lucky and already have upgraded to HTTP/2 and your server has the possibility to do a server push? Then make sure you push your CSS file and you don't even have to inline it in your HTML!
 
@@ -45,18 +47,21 @@ Are you lucky and already have upgraded to HTTP/2 and your server has the possib
 
 ## FAQ
 
- * [Question] Hmm, what? You don't even have to define the HTML with the ⚡ character, could this really be fast?
+ * **Question:** Hmm, what? You don't even have to define the HTML with the ⚡ character, could this really be fast?
 
- Yes it is!
+ Yes it is! Try it out and you will see.
 
- * [Question] The Be Nice AMP Project doesn't come with a CDN, why?
+ * **Question:** The Be Nice AMP Project doesn't come with a CDN, why?
 
- The cool thing with the Be Nice AMP Project is that it is compatible with your current CDN! You can just continue to use, just as before and your pages will be super fast.
+ The cool thing with the Be Nice AMP Project is that it is compatible with your current CDN! You can just continue to use it and your pages will be super fast.
 
 
 ## Be Nice AMP Project vs AMP HTML
+You probably heard of the Google project [AMP Project](https://github.com/ampproject/amphtml) that is kind of the same thing as the Be Nice AMP Project except for a couple of things:
 
+* The AMP project have *"A new approach to web performance"* making your website dependent on Google. The Be Nice AMP Project follow the old approach: Make your site fast following best practice guidelines and be independent of Google.
 
+* With the *Be Nice AMP Project* you don't have to define your HTML tag with the ⚡ character like ```<html ⚡>```. It will still be fast!
 
 # Who makes the Be Nice AMP Project?
 
