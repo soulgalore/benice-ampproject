@@ -17,7 +17,7 @@ You need to build your HTML following this pattern.
   <meta charset="utf-8">
   <link rel="canonical" href="hello-world.html" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Never ever load javascript asyncrounus, make sure you follow this pattern:
+  <!-- Never ever load javascript synchronous, make sure you follow this pattern:
   <script src="https://www.example.org/important.js" async></script>-->
   <style>body { background-color: yellow; }</style>
 </head>
@@ -37,7 +37,7 @@ Are you lucky and already have upgraded to HTTP/2 and your server has the possib
   <meta charset="utf-8">
   <link rel="canonical" href="hello-world.html" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Never ever load javascript asyncrounus, make sure you follow this pattern:
+  <!-- Never ever load javascript synchronous, make sure you follow this pattern:
   <script src="https:/www./example.org/important.js" async></script>-->
   <link rel="stylesheet" href="/css/general.css?1444300406"/>
 </head>
