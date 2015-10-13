@@ -6,6 +6,8 @@ The Be Nice AMP Project is entirely built on existing web technologies and best 
 
 And make sure to inline the CSS inside of head if you use HTTP/1.1.
 
+Want to see the Be Nice project in action? Read the [blog post](https://www.peterhedenskog.com/blog/2015/10/the-be-nice-approach-to-mobile-and-web-performance/)!
+
 # How does the Be Nice AMP Project work on HTTP/1.1?
 
 You need to build your HTML following this pattern.
