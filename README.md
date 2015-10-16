@@ -6,7 +6,7 @@ The Be Nice AMP Project is entirely built on existing web technologies and best 
 
 And make sure to inline the CSS inside of head if you use HTTP/1.1.
 
-Want to see the Be Nice project in action? Read the [blog post](https://www.peterhedenskog.com/blog/2015/10/the-be-nice-approach-to-mobile-and-web-performance/)! Do you want to know what is faster: The Be Nice project or the AMP Project? Checkout the results testing using 2GFast emulated mobile. [Without cache](http://www.webpagetest.org/video/compare.php?tests=151013_7D_KMK,151013_A4_KM7) and [cached](http://www.webpagetest.org/video/compare.php?tests=151013_7D_KMK-c:1,151013_A4_KM7-c:1). The last one is a little missleading though since the main page is cached for the Be Nice project.
+Want to see the Be Nice project in action? Read the [blog post](https://www.peterhedenskog.com/blog/2015/10/the-be-nice-approach-to-mobile-and-web-performance/)! Do you want to know what is faster: The Be Nice project or the AMP Project? Checkout the results testing using 2GFast emulated mobile. [Without cache](http://www.webpagetest.org/video/compare.php?tests=151013_7D_KMK,151013_A4_KM7) and [cached](http://www.webpagetest.org/video/compare.php?tests=151013_7D_KMK-c:1,151013_A4_KM7-c:1). The last one is a little missleading though since the main page is cached for the Be Nice project. You can also checkout Andy Davies [blog post](http://andydavies.me/blog/2015/10/13/accelerated-mobile-pages-ive-more-questions-than-answers/) about the speed of the AMP project.
 
 # How does the Be Nice AMP Project work on HTTP/1.1?
 
