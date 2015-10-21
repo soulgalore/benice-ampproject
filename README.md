@@ -65,6 +65,10 @@ Are you lucky and already have upgraded to HTTP/2 and your server has the possib
  
  No, we don't support these tags out of the box. But we have kind of a cool feature where you can load whatever javascript you want, so you free to build it.
 
+ * **Question:** How do you measure the performance of the Be Nice project, do you support RUM?
+
+ It's kind of cool, you can use whatever RUM software you want and you can fetch data yourself from the Navigation Timing API, the User Timing and the Resource Timing.
+
 ## Be Nice AMP Project vs AMP HTML
 You probably heard of the Google project [AMP Project](https://github.com/ampproject/amphtml) that is kind of the same thing as the Be Nice AMP Project except for a couple of things:
 
